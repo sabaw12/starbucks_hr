@@ -1,0 +1,406 @@
+body {
+    background: #f0f8f0;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    color: #1e3932;
+}
+
+.navbar, .footer {
+    background: #003d29 !important;
+}
+
+.navbar-brand, .footer, .footer a, .footer p {
+    color: #ffffff !important;
+}
+
+.btn-primary, .btn-success, .btn-outline-light {
+    background: #006241 !important;
+    border-color: #006241 !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover, .btn-success:hover, .btn-outline-light:hover {
+    background: #004d34 !important;
+    border-color: #004d34 !important;
+}
+
+.btn-outline-primary {
+    color: #006241 !important;
+    border-color: #006241 !important;
+}
+
+.btn-outline-primary:hover {
+    background: #006241 !important;
+    color: #fff !important;
+}
+
+.btn-outline-secondary {
+    color: #006241 !important;
+    border-color: #006241 !important;
+}
+
+.btn-outline-secondary:hover {
+    background: #006241 !important;
+    color: #fff !important;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 98, 65, 0.1);
+    border-radius: 12px;
+    background: #fff;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+
+}
+h2, h3, h4, h5, h6 {
+    color: #006241;
+    font-weight: 700;
+}
+
+a {
+    color: #006241;
+}
+
+a:hover {
+    color: #004d34;
+    text-decoration: underline;
+}
+
+input, textarea, select {
+    border-radius: 8px !important;
+    border: 1px solid #b2b2b2 !important;
+    padding: 8px 12px !important;
+}
+
+.footer {
+    background: #006241;
+    color: #fff;
+    padding: 40px 0 20px 0;
+    margin-top: auto;
+    text-align: center;
+}
+
+/* Enhanced Starbucks Green Theme for all UI elements */
+
+.hero { 
+    position: relative; 
+    background-image: url('star1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #fff; 
+    padding: 80px 0 60px 0; 
+    text-align: center; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden; 
+}
+.hero .overlay { 
+    position: absolute; 
+    top: 0; left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.7); 
+    z-index: 1; 
+}   
+.hero .container { 
+    position: relative; 
+    z-index: 2; 
+}
+
+.hero .btn-light {
+    background: #fff;
+    color: #006241;
+    font-weight: bold;
+}
+
+.hero .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.stats-section {
+    background: #e8f5e9;
+    padding: 60px 0;
+}
+
+.stats-section h2 {
+    color: #006241;
+    font-size: 2.5rem;
+}
+
+.stats-section p {
+    color: #006241;
+    font-size: 1rem;
+}
+
+.why-section, .values-section {
+    background: #f0f8f0;
+    border-radius: 0;
+    margin-bottom: 2rem;
+}
+
+.why-card, .value-icon {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 98, 65, 0.1);
+    padding: 24px 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #e8f5e9;
+}
+
+.badge-custom {
+    background: #006241;
+    color: #fff;
+    font-size: 0.95em;
+}
+
+.table thead {
+    background: #006241;
+    color: #fff;
+}
+
+.table tbody tr:hover {
+    background: #e8f5e9;
+}
+
+.alert-success {
+    background: #d4edda;
+    color: #006241;
+    border-color: #b7e4c7;
+}
+
+.alert-danger {
+    background: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+.alert-info {
+    background: #d1ecf1;
+    color: #006241;
+    border-color: #bee5eb;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #006241;
+    box-shadow: 0 0 0 0.2rem rgba(0,98,65,.15);
+}
+
+.btn-outline-dark {
+    color: #006241;
+    border-color: #006241;
+}
+
+.btn-outline-dark:hover {
+    background: #006241;
+    color: #fff;
+}
+
+.section-title {
+    color: #006241;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 98, 65, 0.1);
+    border: 1px solid #e8f5e9;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    background: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+    border-color: #006241;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0,98,65,.15);
+}
+
+::-webkit-input-placeholder { color: #b2b2b2; }
+::-moz-placeholder { color: #b2b2b2; }
+:-ms-input-placeholder { color: #b2b2b2; }
+::placeholder { color: #b2b2b2; }
+
+/* Modal customizations */
+.modal-content {
+    border-radius: 16px;
+    border: 1px solid #e8f5e9;
+}
+
+.modal-header {
+    background: #e8f5e9;
+    border-bottom: 1px solid #e8f5e9;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .hero { padding: 40px 0 24px 0; }
+    .why-card, .value-icon { padding: 16px 8px; }
+}
+
+.job-listings .job-card {
+    background: #fff;
+    border: 1px solid #e8f5e9;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,98,65,0.12);
+    transition: all 0.3s ease;
+}
+
+.job-listings .job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,98,65,0.12);
+    border-color: #006241;
+}
+
+.job-type-badge {
+    background-color: #006241;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.job-tags .badge {
+    border: 1px solid #e8f5e9;
+    background: #f0f8f0;
+    color: #006241;
+    padding: 6px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* Status badges for admin */
+.status-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.status-pending { 
+    background-color: #fff3cd; 
+    color: #856404; 
+}
+
+.status-reviewed { 
+    background-color: #d1ecf1; 
+    color: #0c5460; 
+}
+
+.status-shortlisted { 
+    background-color: #d4edda; 
+    color: #155724; 
+}
+
+.status-interview { 
+    background-color: #cce5ff; 
+    color: #004085; 
+}
+
+.status-accepted { 
+    background-color: #d4edda; 
+    color: #155724; 
+}
+
+.status-rejected { 
+    background-color: #f8d7da; 
+    color: #721c24; 
+}
+
+/* Sidebar styling for admin */
+.sidebar {
+    background: #006241 !important;
+    color: #fff !important;
+}
+
+.sidebar .nav-link { 
+    color: #fff !important; 
+}
+
+.sidebar .nav-link.active, .sidebar .nav-link:hover { 
+    background: #004d34 !important; 
+    color: #fff !important; 
+}
+
+/* Dropdown styling */
+.dropdown-menu {
+    border: 1px solid #e8f5e9;
+    box-shadow: 0 2px 8px rgba(0,98,65,0.1);
+}
+
+.dropdown-item:hover {
+    background: #e8f5e9;
+    color: #006241;
+}
+
+/* Badge styling */
+.badge.bg-light {
+    background: #e8f5e9 !important;
+    color: #006241 !important;
+}
+
+.badge.bg-success {
+    background: #006241 !important;
+}
+
+/* Link styling */
+.btn-link {
+    color: #006241;
+}
+
+.btn-link:hover {
+    color: #004d34;
+}
+
+/* Border styling */
+.border {
+    border-color: #e8f5e9 !important;
+}
+
+/* Background utilities */
+.bg-white {
+    background: #fff !important;
+}
+
+.bg-light {
+    background: #f0f8f0 !important;
+}
+
+/* Login page specific styles */
+.login-header { 
+    text-align: center; 
+    margin-top: 40px; 
+    margin-bottom: 30px; 
+}
+
+.login-header h2 { 
+    color: #006241; 
+    font-weight: bold; 
+}
+
+.login-header p { 
+    color: #4b6358; 
+}
+
+.back-link { 
+    color: #006241; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top: 1rem; 
+}
+
+.back-link:hover { 
+    text-decoration: underline; 
+} 
